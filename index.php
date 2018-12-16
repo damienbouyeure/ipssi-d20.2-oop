@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 
-use Support\Application;
+use Connect4\Application;
 
 if (!is_file(__DIR__.'/vendor/autoload.php')) {
     throw new LogicException('The autoload file does not exist, please use composer install');
